@@ -1,24 +1,12 @@
-# README
+# GeoBlacklight for UCSB
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running the application
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Checkout the repo: 
+  `git clone git@github.com:curationexperts/ucsb-geoblacklight.git && cd uscb-geoblacklight`
+1. Create a gemset for dependencies: 
+  `rvm use --create 2.4.2@ucsb-geoblacklight`
+1. Install the gems: 
+  `bundle install` 
+1. Run the server: 
+  `rake geoblacklight:server`
