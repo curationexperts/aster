@@ -1,0 +1,19 @@
+@import 'variables';
+
+@mixin inline($separator, $distance) {
+  &, & > li {
+    /* http://www.alistapart.com/articles/taminglists/ */
+    display: inline;
+    margin: 0;
+    padding-left: 0;
+  }
+  & > li + li {
+    // old IE doesn't recognize ::before, so this keeps items at least a little separate
+    padding-left: $distance/2;
+    &::before {
+      font-style: normal;
+      content: $separator;
+      padding-right: $distance/2;
+    }
+  }
+}
