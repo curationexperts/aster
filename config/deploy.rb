@@ -22,7 +22,7 @@ append :linked_dirs, "public/assets"
 
 append :linked_files, "config/database.yml"
 append :linked_files, "config/secrets.yml"
-append :linked_files, "config/.env.production"
+append :linked_files, ".env.production"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
