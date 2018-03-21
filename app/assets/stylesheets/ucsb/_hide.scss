@@ -1,0 +1,6 @@
+@mixin hide {
+  position: absolute;
+  left: -999em;
+  /* http://css-tricks.com/snippets/css/accessibilityseo-friendly-css-hiding/ */
+  top: -999px;
+}

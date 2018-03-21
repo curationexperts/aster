@@ -1,0 +1,48 @@
+@import 'variables';
+@import 'hide';
+
+.navbar {
+  border-radius: 0;
+}
+.navbar-nav,
+.nav {
+  & > li > a {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+nav.navbar {
+  background: transparent image_url($bg_image) repeat;
+  padding: 1em;
+  color: white;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #fff;
+    background:none;
+    text-decoration: underline;
+  }
+}
+
+
+.navbar-logo {
+  float: left;
+
+  span {
+    @include hide;
+  }
+}
+@media screen and (max-width: $breakpoint2) {
+  .navbar-logo {
+    clear: right;
+    padding-bottom: 0.5em;
+  }
+}
+@media screen and (max-width: $breakpoint4) {
+  .navbar-logo img {
+    width: 100%;
+  }
+}

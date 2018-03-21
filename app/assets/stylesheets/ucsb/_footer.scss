@@ -1,0 +1,110 @@
+@import 'variables';
+@import 'inline';
+
+// ------
+// Footer
+// ------
+
+footer {
+  padding: 1em;
+  overflow: hidden;
+  min-height: 8em;
+
+  font: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: white;
+  background-color: $bg_color;
+
+  ul {
+    @include inline("• ", 4px);
+  }
+
+  a, a:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+.meta-adrl {
+  padding-bottom: 1em;
+}
+.copyright {
+  font-size: 82.5%;
+}
+
+.version {
+  font-size: 82.5%;
+}
+
+.ucsb-small {
+  float: left;
+  clear: right;
+  padding: .5em 1em 0 0;
+}
+
+@media screen and (min-width: $breakpoint3) {
+  footer {
+    position: relative;
+  }
+  .meta-adrl {
+    float: left;
+    max-width: 50%;
+  }
+  .meta-ucsb {
+    min-width: 20em;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.document-thumbnail img {
+  float: right;
+  max-height: 100px;
+  margin-top: 0;
+}
+
+select.search_field.form-control {
+	width: 19%;
+}
+
+table#downloads {
+  &.table-bordered {
+    > thead > tr > th, > tbody > tr > td {
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+
+  thead {
+    background-color: #EEE;
+  }
+
+  .access-row {
+    color: #FFF;
+  }
+  .access-row.denied {
+    background-color: #9E280E;
+  }
+
+  .access-row.allowed {
+    background-color: #41A317;
+  }
+}
+
+// TODO: use .static instead (see below)
+#contact-us-page {
+  width: 80%;
+  margin-left: 10%;
+
+  .form-actions {
+    margin-top: 1em;
+  }
+
+  label { font-weight: normal; }
+
+  form {
+    margin: 1.5em 0;
+
+    .row {
+      margin-bottom: 1em;
+    }
+  }
+}
