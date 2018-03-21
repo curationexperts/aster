@@ -1,4 +1,5 @@
-# GeoBlacklight for UCSB
+# Aster
+### GeoBlacklight for UCSB
 
 ## Running the application
 
