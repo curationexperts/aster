@@ -1,6 +1,6 @@
 # Aster
 ### GeoBlacklight for UCSB
-
+[![Build Status](https://travis-ci.org/curationexperts/aster.svg?branch=master)](https://travis-ci.org/curationexperts/aster)
 ## Running the application
 
 1. Checkout the repo: 
