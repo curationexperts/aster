@@ -2,9 +2,12 @@ language: ruby
 cache: bundler
 dist: trusty
 
+jdk:
+- oraclejdk8
+
 rvm:
   - 2.4.1
 script:
-  - bundle exec rake aster:ci
+  - bundle exec rake aster:travis
 notifications:
   email: false
