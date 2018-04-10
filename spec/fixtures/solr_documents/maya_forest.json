@@ -8,7 +8,7 @@
     "dc_rights_s": "Public",
     "dc_title_s": "Vegetation, Maya Forest, Belize, 1995",
     "dc_type_s": "Dataset",
-    "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"http://geoservices-sandbox.library.ucsb.edu:8080/geoserver/ucsb/ows?service=WFS\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"http://geoservices-sandbox.library.ucsb.edu:8080/geoserver/ucsb/wms?service=WMS\"}",
+    "dct_references_s": "{\"http://schema.org/url\":\"http://iris-demo.curationexperts.com/concern/vector_works/7d278t00k\",\"http://www.opengis.net/def/serviceType/ogc/wfs\":\"http://geoservices-sandbox.library.ucsb.edu:8080/geoserver/ucsb/ows?service=WFS\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"http://geoservices-sandbox.library.ucsb.edu:8080/geoserver/ucsb/wms?service=WMS\"}",
     "solr_geom": "ENVELOPE(-88.0804, -89.2587, 18.4977, 15.8808)",
     "dct_spatial_sm": "Belize",
     "dc_subject_sm":"Belize",
