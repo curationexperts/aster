@@ -1,5 +1,7 @@
-require 'coveralls'
-Coveralls.wear!('rails')
+if ENV['COVERAGE'] || ENV['TRAVIS']
+  require 'coveralls'
+  Coveralls.wear!('rails')
+end
 require 'rails_helper'
 
 RSpec.configure do |config|
