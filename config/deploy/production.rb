@@ -53,3 +53,6 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :stage, :ucsb
+set :rails_env, 'production'
+server '128.111.87.159', user: 'adrl', roles: [:web, :app, :db]
