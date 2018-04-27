@@ -113,7 +113,7 @@ GEM
       simplecov (>= 0.7)
       term-ansicolor
       thor
-    crass (1.0.3)
+    crass (1.0.4)
     deep_merge (1.2.1)
     deprecation (1.0.0)
       activesupport
@@ -279,8 +279,8 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.0.3)
-      loofah (~> 2.0)
+    rails-html-sanitizer (1.0.4)
+      loofah (~> 2.2, >= 2.2.2)
     railties (5.1.5)
       actionpack (= 5.1.5)
       activesupport (= 5.1.5)
